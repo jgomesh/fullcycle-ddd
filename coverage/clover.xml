@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1713455442753" clover="3.2.0">
+  <project timestamp="1713455442753" name="All files">
+    <metrics statements="199" coveredstatements="192" conditionals="21" coveredconditionals="13" methods="71" coveredmethods="71" elements="291" coveredelements="276" complexity="0" loc="199" ncloc="199" packages="4" files="14" classes="14"/>
+    <package name="domain.entity">
+      <metrics statements="110" coveredstatements="106" conditionals="13" coveredconditionals="9" methods="40" coveredmethods="40"/>
+      <file name="Order.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\domain\entity\Order.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="7" coveredmethods="7"/>
+        <line num="3" count="18" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
+        <line num="5" count="18" type="stmt"/>
+        <line num="6" count="18" type="stmt"/>
+        <line num="7" count="18" type="stmt"/>
+        <line num="10" count="18" type="stmt"/>
+        <line num="11" count="18" type="stmt"/>
+        <line num="12" count="18" type="stmt"/>
+        <line num="13" count="18" type="stmt"/>
+        <line num="14" count="18" type="stmt"/>
+        <line num="18" count="14" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="30" count="44" type="stmt"/>
+        <line num="34" count="18" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="17" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="41" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="15" type="stmt"/>
+      </file>
+      <file name="OrderItem.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\domain\entity\OrderItem.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+        <line num="1" count="25" type="stmt"/>
+        <line num="2" count="25" type="stmt"/>
+        <line num="3" count="25" type="stmt"/>
+        <line num="4" count="25" type="stmt"/>
+        <line num="5" count="25" type="stmt"/>
+        <line num="6" count="25" type="stmt"/>
+        <line num="9" count="25" type="stmt"/>
+        <line num="10" count="25" type="stmt"/>
+        <line num="11" count="25" type="stmt"/>
+        <line num="12" count="25" type="stmt"/>
+        <line num="13" count="25" type="stmt"/>
+        <line num="17" count="14" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="25" count="14" type="stmt"/>
+        <line num="29" count="14" type="stmt"/>
+        <line num="34" count="12" type="stmt"/>
+        <line num="38" count="44" type="stmt"/>
+      </file>
+      <file name="address.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\domain\entity\address.ts">
+        <metrics statements="22" coveredstatements="18" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="13" count="14" type="stmt"/>
+        <line num="17" count="13" type="stmt"/>
+        <line num="21" count="13" type="stmt"/>
+        <line num="25" count="13" type="stmt"/>
+        <line num="29" count="13" type="stmt"/>
+        <line num="33" count="14" type="cond" truecount="0" falsecount="1"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="14" type="cond" truecount="0" falsecount="1"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="14" type="cond" truecount="0" falsecount="1"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="14" type="cond" truecount="0" falsecount="1"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+      <file name="customer.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\domain\entity\customer.ts">
+        <metrics statements="28" coveredstatements="28" conditionals="3" coveredconditionals="3" methods="13" coveredmethods="13"/>
+        <line num="3" count="20" type="stmt"/>
+        <line num="4" count="20" type="stmt"/>
+        <line num="5" count="20" type="stmt"/>
+        <line num="6" count="20" type="stmt"/>
+        <line num="7" count="20" type="stmt"/>
+        <line num="8" count="20" type="stmt"/>
+        <line num="11" count="20" type="stmt"/>
+        <line num="12" count="20" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="17" count="16" type="stmt"/>
+        <line num="21" count="14" type="stmt"/>
+        <line num="25" count="14" type="stmt"/>
+        <line num="29" count="22" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="20" type="stmt"/>
+        <line num="40" count="44" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="50" count="8" type="stmt"/>
+        <line num="54" count="15" type="stmt"/>
+        <line num="58" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="69" count="5" type="stmt"/>
+        <line num="73" count="6" type="stmt"/>
+      </file>
+      <file name="product.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\domain\entity\product.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="7" coveredmethods="7"/>
+        <line num="1" count="22" type="stmt"/>
+        <line num="2" count="22" type="stmt"/>
+        <line num="3" count="22" type="stmt"/>
+        <line num="4" count="22" type="stmt"/>
+        <line num="7" count="22" type="stmt"/>
+        <line num="8" count="22" type="stmt"/>
+        <line num="9" count="22" type="stmt"/>
+        <line num="11" count="22" type="stmt"/>
+        <line num="15" count="25" type="stmt"/>
+        <line num="19" count="26" type="stmt"/>
+        <line num="23" count="31" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="37" count="22" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="20" type="cond" truecount="1" falsecount="0"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="46" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="domain.service">
+      <metrics statements="13" coveredstatements="12" conditionals="1" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="order.service.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\domain\service\order.service.ts">
+        <metrics statements="9" coveredstatements="8" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+      <file name="product.service.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\domain\service\product.service.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="infrastructure.db.sequelize.model">
+      <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="3" methods="7" coveredmethods="7"/>
+      <file name="customer.model.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\infrastructure\db\sequelize\model\customer.model.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="7" count="58" type="stmt"/>
+      </file>
+      <file name="order-item.model.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\infrastructure\db\sequelize\model\order-item.model.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="17" count="37" type="stmt"/>
+        <line num="22" count="30" type="stmt"/>
+        <line num="26" count="12" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="33" count="12" type="stmt"/>
+      </file>
+      <file name="order.model.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\infrastructure\db\sequelize\model\order.model.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="17" count="46" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="26" count="21" type="stmt"/>
+        <line num="29" count="21" type="stmt"/>
+      </file>
+      <file name="product.model.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\infrastructure\db\sequelize\model\product.model.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="7" count="74" type="stmt"/>
+      </file>
+    </package>
+    <package name="infrastructure.repository">
+      <metrics statements="57" coveredstatements="55" conditionals="1" coveredconditionals="1" methods="19" coveredmethods="19"/>
+      <file name="customer.repository.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\infrastructure\repository\customer.repository.ts">
+        <metrics statements="23" coveredstatements="23" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="5"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="76" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+      </file>
+      <file name="order.repository.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\infrastructure\repository\order.repository.ts">
+        <metrics statements="24" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+      </file>
+      <file name="product.repository.ts" path="C:\Users\joao.hugill\Documents\STUDY\aula-ddd\01-aula-typescript\src\infrastructure\repository\product.repository.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
