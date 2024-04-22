@@ -1,7 +1,7 @@
 import SendEmailWhenProductIsCreatedHandler from "../domain/product/event/handler/send-email-when-product-is-created.handler";
 import EventDispatcher from "../domain/@shared/event/event-dispatcher";
 import ProductCreatedEvent from "../domain/product/event/product-created.event";
-import { SendEmailWhenAddressChangedHandler } from "../domain/customer/event/handler/send-message-when-address-is-changed.handler";
+import SendEmailWhenAddressChangedHandler from "../domain/customer/event/handler/send-message-when-address-is-changed.handler";
 import CustomerCreatedEvent from "../domain/customer/event/customer-created.event";
 import Address from "../domain/customer/value-object/address";
 import CustomerAddressChangedEvent from "../domain/customer/event/address-changed.event";
