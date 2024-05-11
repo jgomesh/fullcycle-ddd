@@ -1,4 +1,4 @@
-import ProductFactory from "../domain/product/factory/product.factory";
+import ProductFactory from "../../../domain/product/factory/product.factory";
 
 describe("Product Factory tests", () => {
     it("should create a product type a", () => {

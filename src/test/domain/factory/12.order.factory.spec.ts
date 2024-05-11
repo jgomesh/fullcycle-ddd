@@ -1,6 +1,6 @@
-import OrderFactory from "../domain/checkout/factory/order.factory";
-import CustomerFactory from "../domain/customer/factory/customer.factory";
-import Address from "../domain/customer/value-object/address";
+import OrderFactory from "../../../domain/checkout/factory/order.factory";
+import CustomerFactory from "../../../domain/customer/factory/customer.factory";
+import Address from "../../../domain/customer/value-object/address";
 import { v4 as uuid } from "uuid";
 
 describe("Order Factory tests", () => {

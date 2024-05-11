@@ -1,16 +1,16 @@
 import { Sequelize } from "sequelize-typescript";
-import Order from "../domain/checkout/entity/Order";
-import OrderItem from "../domain/checkout/entity/OrderItem";
-import Customer from "../domain/customer/entity/customer";
-import Address from "../domain/customer/value-object/address";
-import Product from "../domain/product/entity/product";
-import CustomerModel from "../infrastructure/customer/repository/sequelize/customer.model";
-import CustomerRepository from "../infrastructure/customer/repository/sequelize/customer.repository";
-import ProductModel from "../infrastructure/product/repository/sequelize/product.model";
-import ProductRepository from "../infrastructure/product/repository/sequelize/product.repository";
-import OrderItemModel from "../infrastructure/order/repository/sequelize/order-item.model";
-import OrderModel from "../infrastructure/order/repository/sequelize/order.model";
-import OrderRepository from "../infrastructure/order/repository/sequelize/order.repository";
+import Order from "../../../domain/checkout/entity/Order";
+import OrderItem from "../../../domain/checkout/entity/OrderItem";
+import Customer from "../../../domain/customer/entity/customer";
+import Address from "../../../domain/customer/value-object/address";
+import Product from "../../../domain/product/entity/product";
+import CustomerModel from "../../../infrastructure/customer/repository/sequelize/customer.model";
+import CustomerRepository from "../../../infrastructure/customer/repository/sequelize/customer.repository";
+import ProductModel from "../../../infrastructure/product/repository/sequelize/product.model";
+import ProductRepository from "../../../infrastructure/product/repository/sequelize/product.repository";
+import OrderItemModel from "../../../infrastructure/order/repository/sequelize/order-item.model";
+import OrderModel from "../../../infrastructure/order/repository/sequelize/order.model";
+import OrderRepository from "../../../infrastructure/order/repository/sequelize/order.repository";
 
 describe("Order repository test", () => {
   let sequelize: Sequelize;

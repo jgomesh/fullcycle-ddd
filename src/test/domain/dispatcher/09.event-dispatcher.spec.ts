@@ -1,12 +1,12 @@
-import SendEmailWhenProductIsCreatedHandler from "../domain/product/event/handler/send-email-when-product-is-created.handler";
-import EventDispatcher from "../domain/@shared/event/event-dispatcher";
-import ProductCreatedEvent from "../domain/product/event/product-created.event";
-import SendEmailWhenAddressChangedHandler from "../domain/customer/event/handler/send-message-when-address-is-changed.handler";
-import CustomerCreatedEvent from "../domain/customer/event/customer-created.event";
-import Address from "../domain/customer/value-object/address";
-import CustomerAddressChangedEvent from "../domain/customer/event/address-changed.event";
-import SendFirstMessageWhenCustomerIsCreatedHandler from "../domain/customer/event/handler/send-first-message-when-customer-is-created.handler";
-import SendSecondMessageWhenCustomerIsCreatedHandler from "../domain/customer/event/handler/send-second-message-when-customer-is-created.handler";
+import SendEmailWhenProductIsCreatedHandler from "../../../domain/product/event/handler/send-email-when-product-is-created.handler";
+import EventDispatcher from "../../../domain/@shared/event/event-dispatcher";
+import ProductCreatedEvent from "../../../domain/product/event/product-created.event";
+import SendEmailWhenAddressChangedHandler from "../../../domain/customer/event/handler/send-message-when-address-is-changed.handler";
+import CustomerCreatedEvent from "../../../domain/customer/event/customer-created.event";
+import Address from "../../../domain/customer/value-object/address";
+import CustomerAddressChangedEvent from "../../../domain/customer/event/address-changed.event";
+import SendFirstMessageWhenCustomerIsCreatedHandler from "../../../domain/customer/event/handler/send-first-message-when-customer-is-created.handler";
+import SendSecondMessageWhenCustomerIsCreatedHandler from "../../../domain/customer/event/handler/send-second-message-when-customer-is-created.handler";
 
 describe("Domain events tests", () => {
     it("should register an event handler", () => {
