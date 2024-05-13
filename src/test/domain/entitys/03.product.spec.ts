@@ -16,13 +16,13 @@ describe("Product unit tests", () => {
     it("should throw error when price is invalid", () => {
         expect(() => {
             let product = new Product("123", "Name", -12)
-        }).toThrow("Price is invalid");
+        }).toThrow("Price must be greater than zero");
     });
 
     it("should throw error when price is invalid", () => {
         expect(() => {
             let product = new Product("123", "Name", 0)
-        }).toThrow("Price is invalid");
+        }).toThrow("Price must be greater than zero");
     });
 
     it("should change name", () => {
